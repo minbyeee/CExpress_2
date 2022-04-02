@@ -3,14 +3,13 @@
 int main(void)
 {
 printf("Hello world!");
-printf("kim chulsoo"); // 나눠 프린트함수써도 한줄에 'Hello world!kim chulsoo'로 출력
-
+printf("kim chulsoo");
 return 0;
 }
 
 int main(void)
 {
 printf("Hello world!\n");
-printf("kim chulsoo\n"); // \n은 줄바꿈
+printf("kim chulsoo\n"); 
 return 0;
 }
