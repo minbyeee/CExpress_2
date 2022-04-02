@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+int main(void)
+{
+printf("Hello world!");
+printf("kim chulsoo");
+return 0;
+}
+
+int main(void)
+{
+printf("Hello world!\n");
+printf("kim chulsoo\n"); 
+return 0;
+}
