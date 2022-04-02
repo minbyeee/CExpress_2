@@ -2,14 +2,14 @@
 
 int main(void)
 {
-printf("Hello world!");
+printf("Hello world!"); // 붙여서 나옴
 printf("kim chulsoo");
 return 0;
 }
 
-int main(void)
-{
-printf("Hello world!\n");
-printf("kim chulsoo\n"); 
-return 0;
-}
+//int main(void)
+//{
+//printf("Hello world!\n"); // [\n]: 줄바꿈 
+//printf("kim chulsoo\n"); 
+//return 0;
+//}
