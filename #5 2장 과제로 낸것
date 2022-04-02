@@ -1,0 +1,21 @@
+//1. Hello.c
+
+#include <stdio.h>
+int main(void)
+{
+printf("Hello \nWorld! \n" );
+//줄바꿈 안됨
+printf("Kim chulSoo");
+return 0;
+}
+
+
+//2. Plus.c
+#include <stdio.h>
+int main(void)
+{
+printf("2+3 =% d \n",2+3); //%d는 형식지정자로 뒤에오는 것 2+3이 %d자리에 들어간
+다. printf("2-3 =% d \n", 2-3);
+printf("2*3 =% d \n", 2*3);
+printf("2/3 =% d \n", 2/3);
+return 
