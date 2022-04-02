@@ -1,0 +1,9 @@
+/*HelloWorld 출력하기*/
+#include <stdio.h> // 전처리:[include]소스코드안에 특정파일을 현재위치에 두기, [stdio.h]'standard input output header file'의 준말 입출력 관련 헤더파일, [헤더파일]컴파일러가 필요로하는 파일
+
+int main(void) // [출력값 함수 (전달값)]: [함수] 입력이 주어지면 특정한 작업을 수행하며 출력이나옴 수학 함수와 비슷 [main] 메인함수안에 코드의 시작점이 있어서 모든 코드에 있어야함
+               //  [void] 비어있다, 아무것도 반환하지 않음, 전달 받을 인수가 없다.              
+{
+	printf("Hello World!");
+		return 0; // 0값을 반환한다, 프로그램이 정상적으로 종료되었음을 의미
+}
